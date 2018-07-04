@@ -1,27 +1,16 @@
-# Step 4 - Notifications changes
+# Step 5 - Creative Explorations 
 
 ## About
 
-Notifications are a big area for imporvement in iOS12. 
+Congratulations, you've now tried out the best of the new frameworks in iOS12.
 
-The main new things:
-- Grouping and threading. 
-- Custom UI for notifications through extensions (with interactivity).
+This Step is about being creative and coming up with new ways to make SealChat better.   
 
-For more details:
-[https://developer.apple.com/videos/play/wwdc2018/710/](https://developer.apple.com/videos/play/wwdc2018/710/) 
+This README includes some ideas to get you started. 
 
-## Key concept 
+## Idea bank 
 
-Notifications can be mini-apps and a lot less spammy. 
-
-
-## What will we do? 
-
-SealChat doesn't have a backend so we will need to set up local notifications.
-
-notify(message: String, sender: String) gets automatically called when new messages arrive.
-
-We will set a thread identifier to affect the grouping of messages. 
-
-We will create a custom UI for notifications.
+- Login screen should actually change your device name.
+- Add live video to Seal Chat. 
+- Use new AuthenticationServices framework as a seal based password manager.
+- Persist chat history.
