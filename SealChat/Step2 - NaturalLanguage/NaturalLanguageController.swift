@@ -26,6 +26,8 @@ class NaturalLanguageController {
         // Get names
         //let names = extractNames(from: sentence)
         // Switch on names to return one of the asset seal images
+
+        // Next level -  use sentiment classifier to switch on statement
         return nil
     }
 }

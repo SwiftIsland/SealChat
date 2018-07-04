@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3402592420EA922B001C591D /* DeviceBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3402592320EA922B001C591D /* DeviceBrowserViewController.swift */; };
 		3402592620EA9638001C591D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3402592520EA9638001C591D /* ChatViewController.swift */; };
+		3430BC7020ECECF00015AB74 /* SentimentClassifer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3430BC6F20ECECF00015AB74 /* SentimentClassifer.mlmodel */; };
 		343D025F20E9099600F5049C /* ChatSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D025E20E9099600F5049C /* ChatSender.swift */; };
 		343D026120E90B9C00F5049C /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D026020E90B9C00F5049C /* ChatController.swift */; };
 		343D026320E90F5100F5049C /* ChatReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D026220E90F5100F5049C /* ChatReceiver.swift */; };
@@ -29,6 +30,7 @@
 		334021C4AC11DC307BE66AE5 /* Pods_SealChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SealChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3402592320EA922B001C591D /* DeviceBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceBrowserViewController.swift; sourceTree = "<group>"; };
 		3402592520EA9638001C591D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		3430BC6F20ECECF00015AB74 /* SentimentClassifer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SentimentClassifer.mlmodel; sourceTree = "<group>"; };
 		343D025E20E9099600F5049C /* ChatSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSender.swift; sourceTree = "<group>"; tabWidth = 3; };
 		343D026020E90B9C00F5049C /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
 		343D026220E90F5100F5049C /* ChatReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatReceiver.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				34E7255320E974F500E50F6B /* NaturalLanguageController.swift */,
+				3430BC6F20ECECF00015AB74 /* SentimentClassifer.mlmodel */,
 			);
 			path = "Step2 - NaturalLanguage";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3402592420EA922B001C591D /* DeviceBrowserViewController.swift in Sources */,
+				3430BC7020ECECF00015AB74 /* SentimentClassifer.mlmodel in Sources */,
 				343D026320E90F5100F5049C /* ChatReceiver.swift in Sources */,
 				343D025F20E9099600F5049C /* ChatSender.swift in Sources */,
 				34C0B1ED20EC2819009C0F20 /* LocalNotificationController.swift in Sources */,
