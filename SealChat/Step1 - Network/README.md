@@ -17,6 +17,7 @@ For more details:
 You send NWConnections, they are received by a host/NWListener. 
 
 Connections have an interesting lifecycle:
+<img width="1098" alt="screen shot 2018-07-04 at 14 09 55" src="https://user-images.githubusercontent.com/889949/42278819-3a31869e-7f9c-11e8-9352-fa58ecf41c9a.png">
 
 After the Preparing phase, if a valid connection is not avaialble, the Connection will move to a Waiting phase. It will keep switching between Waiting and Preparing whenever the network changes. 
 
