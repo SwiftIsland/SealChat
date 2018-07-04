@@ -1,0 +1,22 @@
+PODS:
+  - MessageKit (1.0.0)
+
+DEPENDENCIES:
+  - MessageKit (from `https://github.com/MessageKit/MessageKit`, branch `master`)
+
+EXTERNAL SOURCES:
+  MessageKit:
+    :branch: master
+    :git: https://github.com/MessageKit/MessageKit
+
+CHECKOUT OPTIONS:
+  MessageKit:
+    :commit: a3f07c6bd01e3d87c69c2f947e1e4e275020b71c
+    :git: https://github.com/MessageKit/MessageKit
+
+SPEC CHECKSUMS:
+  MessageKit: 16160036b16476b04bd0e9f2c7ce67e662e503e4
+
+PODFILE CHECKSUM: d8896409f68a9526229c769cc3175372995675af
+
+COCOAPODS: 1.5.3
