@@ -25,7 +25,7 @@ class LocalNotificationController: NSObject, UNUserNotificationCenterDelegate {
     func notify(message: String, sender: String) {
         // Create and schedule a local message
 
-        // Add the sender name as a local identifier
+        // Add the sender name as a thread identifier
 
         // Create a UI Notification extention
 
@@ -39,6 +39,5 @@ class LocalNotificationController: NSObject, UNUserNotificationCenterDelegate {
     // This shows local notifications in foreground
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.alert, .badge, .sound])
-
     }
 }
