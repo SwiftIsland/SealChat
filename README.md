@@ -2,9 +2,9 @@
 
 ## The Plan
 
-In this project, we will learn and experiment with some new iOS12 APIs and Frameworks that are not Siri, ML or AR related.
+In this project, we will learn and experiment with new iOS12 APIs and Frameworks that are not Siri, ML or AR related.
 
-We will do that by building an app called SealChat. It's like iMessage but with more seals. 
+We will do that by building an app called SealChat. It's like iMessage but with more seals.
 
 The work is divided into five steps:
 - [Step 1 - Network.framework](https://github.com/SwiftIsland/SealChat/blob/master/SealChat/Step1%20-%20Network/README.md)

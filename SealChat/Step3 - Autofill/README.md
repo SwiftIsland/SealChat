@@ -2,9 +2,9 @@
 
 ## About
 
-Since iOS10, it's possible t set a textContentType on any text field and AutoFill will make relevant suggestions.
+Since iOS10, it's possible to set a textContentType on any text field and AutoFill will make relevant suggestions.
 
-iOS12 brings with it some big improvements to password autofill.
+iOS12 brings with it some big improvements to sign up and login autofill.
 
 You can now tag a text field as:
 - One time code: when you have 2 factor authentication and get a temporary code via SMS, this will automatically suggest that code to the user. No more switching between apps and memorising numbers.
