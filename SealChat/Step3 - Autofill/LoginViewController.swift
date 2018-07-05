@@ -15,7 +15,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Apply textContentType to text fields
+        // Apply textContentType to text fields, use newPassword for password
 
         // Play with custom password rules
     }

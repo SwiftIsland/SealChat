@@ -108,7 +108,7 @@
 		34C0B1CA20EBC3B0009C0F20 /* Step1 - Network */ = {
 			isa = PBXGroup;
 			children = (
-				343D026020E90B9C00F5049C /* ChatController.swift */,
+				34C0B1C720EBBF47009C0F20 /* Constants.swift */,
 				343D025E20E9099600F5049C /* ChatSender.swift */,
 				343D026220E90F5100F5049C /* ChatReceiver.swift */,
 				3402592320EA922B001C591D /* DeviceBrowserViewController.swift */,
@@ -128,10 +128,10 @@
 		34C0B1CC20EBC40D009C0F20 /* Boilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				343D026020E90B9C00F5049C /* ChatController.swift */,
 				347B68BF20E7D1130041100F /* AppDelegate.swift */,
 				3402592520EA9638001C591D /* ChatViewController.swift */,
 				34C0B1C520EBBAEA009C0F20 /* SealChatMessage.swift */,
-				34C0B1C720EBBF47009C0F20 /* Constants.swift */,
 				347B68C320E7D1130041100F /* Main.storyboard */,
 			);
 			path = Boilerplate;

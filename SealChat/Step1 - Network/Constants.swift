@@ -10,5 +10,3 @@ import Foundation
 
 let networkType = "_sealchat._udp."
 let networkDomain = "local"
-let networkHandshake = "sealshake"
-

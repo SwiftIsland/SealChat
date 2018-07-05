@@ -18,8 +18,8 @@ class NaturalLanguageController {
     }
 
     func extractSentiment(sentence: String) -> String {
-        // Use MLModel to do a sentiment analysis
-        return "pos"
+        // Use NLModel to do a sentiment analysis, it reurns "pos" or "neg"
+        return ""
     }
 
     func sealImage(sentence: String) -> UIImage? {

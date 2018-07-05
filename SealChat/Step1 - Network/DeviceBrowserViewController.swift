@@ -20,6 +20,7 @@ class DeviceBrowserViewController: UITableViewController, NetServiceBrowserDeleg
         self.title = "Select Device"
         chatController = ChatController()
         chatController?.startReceiver()
+        // search for services of networkType and networkDomain with NetServiceBrowser
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -37,6 +38,11 @@ class DeviceBrowserViewController: UITableViewController, NetServiceBrowserDeleg
             chatViewController.setUp(for: deviceName, chatController: chatController)
         }
         self.navigationController?.pushViewController(chatViewController, animated: true)
+    }
+
+    func netServiceBrowser(_ browser: NetServiceBrowser, didFind service: NetService, moreComing: Bool) {
+        guard service.name != UIDevice.current.name else { return }
+        // Add device name
     }
 
 }

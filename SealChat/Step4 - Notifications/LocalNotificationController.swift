@@ -23,16 +23,22 @@ class LocalNotificationController: NSObject, UNUserNotificationCenterDelegate {
     }
 
     func notify(message: String, sender: String) {
+        // Create content for local notification with UNMutableNotificationContent
+
+        // Add the sender name as a thread identifier, this is iOS12's way of handling threading
+
+        // Create a trigger for local notification with UNTimeIntervalNotificationTrigger
+
+        // Create request to UNNotificationRequest
+
+        // Add the request to UNUserNotificationCenter.current
+
         // Create and schedule a local message
 
-        // Add the sender name as a thread identifier
-
-        // Create a UI Notification extention
+        // For a custom Extension:
 
         // Add the categoryIdentifier "CustomSealNotif" to the notfication's content
-
         // Configure UNNotificationExtensionCategory in your extension's Info.plist to include "CustomSealNotif"
-
         // In your extension's Info.plist, set UNNotificationExtensionDefaultContentHidden to true to remove chrome.
     }
 

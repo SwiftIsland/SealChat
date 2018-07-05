@@ -12,17 +12,11 @@ import Network
 class ChatSender {
 
     init(name: String) {
-        // Create a UDP NWConnection
+        // Create a UDP NWConnection, connect it to a service using .udp with the initialised name, and constants for networkType and networkDomain, interface is nil.
 
-        // Define what happens when status is updated, when connection is ready, send handshake.
+        // Define what happens when status is updated, when connection is ready, print "ready" (can be later used to update UI)
 
         // Start the connection
-    }
-
-    func performHandshake() {
-        // Handshake
-        self.send(message: networkHandshake)
-        // Receive the handhsake back from the connection
     }
 
     func send(message: String) {

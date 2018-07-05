@@ -13,19 +13,17 @@ class ChatReceiver {
     var receivedTextHandler: ReceivedTextHandler?
 
     init(name: String) {
-        // Create UDP NWlistener
+        // Create UDP NWListener with parameter .udp
 
-        // Define Service with name and type
+        // Define the NWListener's service with the initialised name and the networkType constant
 
         // When a new connection arrives, start it. Then call rece self.receive(on:)
-
-        // Optional: error handling on state update handler
 
         // Start listener
     }
 
     func receive(on connection: NWConnection) {
-        // Call receive on the connection, send a handshake back to the recipient and trigger the receivedTextHandler for text
+        // Call receive on the connection and trigger the receivedTextHandler for text
 
         // If there are no errors, call this function recursively:
         // self.receive(on: connection)
