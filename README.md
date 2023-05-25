@@ -1,3 +1,4 @@
+# This is an archived repo from our 2018 conference
 # SealChat
 
 ## The Plan
